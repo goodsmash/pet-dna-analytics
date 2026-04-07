@@ -1,0 +1,31 @@
+node_modules/
+.env
+.env.local
+.DS_Store
+*.log
+dist/
+build/
+.react-router/
+.vite/
+coverage/
+*.pem
+*.key
+
+# Large data files
+*.xlsx
+*.csv
+*.vcf
+*.bed
+*.bim
+*.fam
+*.ped
+*.map
+*.raw
+
+# Dataset folders (too large for GitHub)
+Fulldataset_*/
+doi_10_5061_*/
+
+# OS files
+Thumbs.db
+desktop.ini
